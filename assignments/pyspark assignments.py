@@ -1,4 +1,4 @@
-# Databricks notebook source
+
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, LongType
 from pyspark.sql.functions import from_unixtime, unix_timestamp, to_timestamp
@@ -77,6 +77,7 @@ remove_null(df4)
 
 # COMMAND ----------
 
+#New Question
 #create a dataframe 
 def createDataFrame2():
     schema = StructType([
